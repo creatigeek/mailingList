@@ -1,0 +1,58 @@
+header .signup_form input {
+	color: #281142;
+	background: #fff3bf;
+	border: 1px solid #6f3c77
+}
+
+.btn-magic {
+	color: #fff3bf;
+    background-color: #281142;
+    border-color: #6f3c77;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.btn-magic:hover,
+.btn-magic:focus,
+.btn-magic.focus,
+.btn-magic:active,
+.btn-magic.active,
+.open > .dropdown-toggle.btn-magic {
+    border-color: #281142;
+    color: #fff3bf;
+    background-color: #6f3c77;
+}
+
+.btn-magic:active,
+.btn-magic.active,
+.open > .dropdown-toggle.btn-magic {
+    background-image: none;
+}
+
+.btn-magic.disabled,
+.btn-magic[disabled],
+fieldset[disabled] .btn-magic,
+.btn-magic.disabled:hover,
+.btn-magic[disabled]:hover,
+fieldset[disabled] .btn-magic:hover,
+.btn-magic.disabled:focus,
+.btn-magic[disabled]:focus,
+fieldset[disabled] .btn-magic:focus,
+.btn-magic.disabled.focus,
+.btn-magic[disabled].focus,
+fieldset[disabled] .btn-magic.focus,
+.btn-magic.disabled:active,
+.btn-magic[disabled]:active,
+fieldset[disabled] .btn-magic:active,
+.btn-magic.disabled.active,
+.btn-magic[disabled].active,
+fieldset[disabled] .btn-magic.active {
+    border-color: #281142;
+    background-color: #281142;
+}
+
+.btn-magic .badge {
+    color: #6f3c77;
+    background-color: #fff3bf;
+}
